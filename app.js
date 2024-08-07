@@ -17,7 +17,7 @@ dotenv.config({ path: "./config/config.env" });
 
 // Middleware
 app.use(cors({
-  origin: 'https://66b306cb60cf90691f00b329--radiant-shortbread-9610f7.netlify.app',
+  origin: 'https://mern-app-food.netlify.app/',
   credentials: true,
 }));
 app.use(express.json());
